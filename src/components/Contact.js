@@ -111,7 +111,9 @@ const Wrapper = styled.section`
       gap: 5rem;
     }
   }
-
+  .contact-information-container article {
+    margin: 2rem;
+  }
   .icon-info {
     font-size: 2rem;
     background: var(--clr-white);
@@ -138,6 +140,9 @@ const Wrapper = styled.section`
   @media (min-width: 992px) {
     .contact-information-container {
       grid-template-columns: repeat(4, 1fr);
+    }
+    .contact-information-container article {
+      margin: 0;
     }
   }
 `
