@@ -54,11 +54,11 @@ return tempAmount
           decrease={decrease}
           amount={amount}
         />
-       
-          <a href=' https://wa.me/221779258508' className='btn-whatsapp'>
-            <FaWhatsapp />
-          </a>
-        
+
+        <a href=' https://wa.me/221779436804' className='btn-whatsapp'>
+          <FaWhatsapp />
+          
+        </a>
       </div>
     </Wrapper>
   )
